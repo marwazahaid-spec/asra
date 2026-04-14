@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+header {
+    background: #97af3f;
+    color: rgb(177, 88, 147);
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #d142b9;
+}
+
+/* Hero Section */
+.hero {
+    height: 90vh;
+    background: url('https://images.unsplash.com/photo-1507089947368-19c1da9775ae') no-repeat center/cover;
+    color: rgb(13, 134, 118);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.hero h2 {
+    font-size: 50px;
+}
+
+.hero p {
+    margin: 15px 0;
+    font-size: 20px;
+}
+
+.hero button {
+    padding: 10px 20px;
+    border: none;
+    background: #ff9800;
+    color: rgb(230, 187, 139);
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.hero button:hover {
+    background: #499236;
+}
+
+/* Houses Section */
+.houses {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+}
+
+.card {
+    width: 300px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card h3 {
+    margin: 10px 0;
+}
+
+.card p {
+    padding: 0 10px 20px;
+}
+
+/* Footer */
+footer {
+    background: #8db7da;
+    color: rgb(177, 32, 32);
+    text-align: center;
+    padding: 15px;
+}
